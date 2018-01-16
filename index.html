@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="search-area">
+        <input v-model="searchTerm" @keyup.enter="searchButtonClicked" placeholder="Search the iTunes Music Store"/>
+      </div>
+      <track-list v-if="results" :tracks="results.results" @play="stopAllAudio"></track-list>
+    </div>
+    <script src="components/TrackItem.js"></script>
+    <script src="components/TrackList.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

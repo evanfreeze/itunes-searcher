@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  background-color: #f3f3f5;
+}
+
+.track-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.track-item-wrapper {
+  margin: 6px;
+  width: 30%;
+  min-width: 450px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.track-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 12px 0px 12px;
+}
+
+.track-item img {
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.track-content {
+  padding-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.track-name {
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.track-artist {
+  margin: 0;
+  font-weight: 100;
+}
+
+.track-play {
+  font-size: 1.6em;
+  margin-right: 6px;
+}
+
+.search-area {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.search-area input {
+  padding: 10px 20px;
+  font-size: 1.3em;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.progress-bar {
+  min-height: 6px;
+  padding: 0;
+  margin: 6px 0 0 0;
+  width: 0%;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.blueprog {
+  background-color: #4ea7b6;
+}
+
+.greyprog {
+  background-color: #bbb;
+}
