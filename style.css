@@ -6,6 +6,7 @@ body {
 .track-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .track-item-wrapper {
